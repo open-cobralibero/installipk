@@ -1,0 +1,22 @@
+<screen name="Scandtt" position="0,0" size="1280,720" title="GioppyGio - ScanDTT" backgroundColor="#00000000" flags="wfNoBorder">
+  <widget source="Title" render="Label" position="120,10" size="866,33" font="gioppyregular;29" halign="left" valign="center" foregroundColor="#FFFFFF" backgroundColor="#00000000" borderColor="#000000" borderWidth="1" transparent="1" zPosition="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/GG_Logo2hd.png" position="7,10" size="100,32" zPosition="1" alphatest="blend" />
+  <widget name="key_red" position="40,670" size="166,46" zPosition="1" valign="center" font="gioppyregular;20" halign="left" backgroundColor="#00000000" transparent="1" />
+  <widget name="key_green" position="292,683" size="266,26" zPosition="1" halign="left" borderColor="#000000" borderWidth="1" font="gioppyregular;20" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_redhd.png" position="12,683" size="23,23" alphatest="blend" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_greenhd.png" position="263,684" size="23,23" alphatest="blend" transparent="1" />
+  <ePixmap position="50,86" size="152,152" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/gioppy1hd.png" zPosition="2" alphatest="blend" />
+  <widget name="version" position="816,369" size="446,33" font="gioppyregular;24" halign="center" valign="center" foregroundColor="#00ffc000" backgroundColor="#00000000" borderColor="#000000" borderWidth="1" transparent="1" zPosition="1" />
+  <eLabel text="www.gioppygio.it" position="816,416" size="446,33" font="gioppyregular;23" halign="center" valign="center" foregroundColor="#FFFFFF" backgroundColor="#00000000" borderWidth="1" transparent="1" zPosition="1" />
+  <widget source="global.CurrentTime" render="Label" position="866,13" size="400,33" font="gioppyregular;23" halign="right" foregroundColor="#00aaaaaa" backgroundColor="#00000000" transparent="1" zPosition="1">
+    <convert type="ClockToText">Format:%A %d.%m.%Y | %H:%M</convert>
+  </widget>
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/dvbt2hd.png" position="816,70" size="447,251" zPosition="3" alphatest="blend" transparent="1"/>
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/BG_default2hd.jpg" position="0,0" zPosition="-20" size="1280,720" />
+  <widget name="network" position="263,593" size="400,26" halign="left" zPosition="2" font="gioppyregular;20" foregroundColor="#73c6ff" backgroundColor="#00000000" transparent="1"/>
+  <widget name="transponder" position="263,623" size="400,26" halign="left" zPosition="2" font="gioppyregular;20" backgroundColor="#00000000" transparent="1"/>
+  <widget name="pass" position="263,33" size="536,33" valign="center" font="gioppyregular;21" foregroundColor="#00ffc000" backgroundColor="#00000000"  transparent="1"/>
+  <widget name="scan_state" position="263,53" size="530,60" valign="center" zPosition="2" font="gioppyregular;21" foregroundColor="#73c6ff" backgroundColor="#00000000" transparent="1"/>
+  <widget name="scan_progress" position="263,126" size="530,16" borderWidth="1" borderColor="#cccccc" foregroundColor="#49bbff" />
+  <widget name="servicelist" position="263,153" size="536,403" itemHeight="26" font="gioppyregular;20" foregroundColor="#ffffff" selectionDisabled="1" scrollbarMode="showOnDemand" backgroundColor="#00000000" transparent="1" zPosition="1"/>
+</screen>

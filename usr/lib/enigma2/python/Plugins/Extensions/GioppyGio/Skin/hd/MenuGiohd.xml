@@ -1,0 +1,44 @@
+<screen name="MenuGio" position="0,0" size="1280,720" title="GioppyGio - Setting and Picons" backgroundColor="#00000000" flags="wfNoBorder">
+  <widget source="Title" render="Label" position="120,10" size="866,33" font="gioppyregular;29" halign="left" valign="center" foregroundColor="#FFFFFF" backgroundColor="#00000000" borderColor="#000000" borderWidth="1" transparent="1" zPosition="1" />
+  <widget name="image_stb" position="876,473" alphatest="blend" size="333,98" transparent="1" zPosition="1" />
+  <widget name="team" position="816,616" size="446,33" font="gioppyregular;19" halign="center" valign="center" borderColor="#000000" borderWidth="1" foregroundColor="#00ffc000" backgroundColor="#00000000" transparent="1" zPosition="1"/>
+  <widget name="model_stb" position="816,586" size="446,33" font="gioppyregular;20" halign="center" valign="center" borderColor="#000000" borderWidth="1" foregroundColor="#49bbff" backgroundColor="#00000000" transparent="1" zPosition="1"/>
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/GG_Logo2hd.png" position="7,10" size="100,32" zPosition="1" alphatest="blend" />
+  <widget name="importtxt" position="0,593" size="255,30" font="gioppyregular;20" foregroundColor="#49bbff" halign="center" zPosition="1" transparent="1" />
+  <widget name="importtxtdate" position="0,623" size="255,30" font="gioppyregular;20" foregroundColor="#00ffc000" halign="center" zPosition="1" transparent="1" />
+  <widget name="import" position="88,527" size="300,40" font="gioppyregular;20" halign="left" zPosition="1" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/2hd.png" position="40,521" size="33,33" zPosition="10" transparent="1" alphatest="blend" />
+  <widget name="importpx" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/2greenhd.png" position="40,521" size="33,33" zPosition="12" transparent="1" alphatest="blend" />
+  <widget name="export" position="88,479" size="300,30" font="gioppyregular;20" halign="left" zPosition="1" transparent="1" />
+  <widget name="updatepicons" position="0,570" size="255,95" font="gioppyregular;20" foregroundColor="#00ffc000" halign="center" valign="center" zPosition="1" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/1hd.png" position="40,474" size="33,33" zPosition="10" transparent="1" alphatest="blend" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/powerhd.png" position="40,427" size="68,23" zPosition="10" transparent="1" alphatest="blend" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/chhd.png" position="770,591" size="25,56" zPosition="10" transparent="1" alphatest="blend" />
+  <widget name="Key_Info" position="116,427" size="253,26" font="gioppyregular;20" halign="left" zPosition="1" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_menuhd.png" position="40,380" size="68,23" zPosition="10" transparent="1" alphatest="blend" />
+  <widget name="Key_Menu" position="116,380" size="253,26" font="gioppybold;20" halign="left" foregroundColor="#00ffc000" backgroundColor="#00000000" zPosition="1" transparent="1" />
+  <ePixmap position="40,333" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_helphd.png" size="68,23" alphatest="blend" zPosition="2" />
+  <widget name="key_help" position="116,333" size="253,26" zPosition="1" font="gioppyregular;20" halign="left" transparent="1" />
+  <widget name="A" position="6,64" size="233,586" itemHeight="40" font="gioppyregular;23" backgroundColorSelected="#0000FF" backgroundColor="#00000000" foregroundColorSelected="#FFA500" transparent="1" scrollbarMode="showOnDemand" zPosition="5" enableWrapAround="1" />
+  <widget name="B" position="252,64" size="552,503" font="gioppyregular;23" itemHeight="38" backgroundColor="#00000000" backgroundColorSelected="#0000FF" foregroundColorSelected="#FFA500" scrollbarSliderForegroundColor="#49bbff" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="#49bbff" scrollbarWidth="7" transparent="1" scrollbarMode="showOnDemand" zPosition="20" enableWrapAround="1" />
+  <widget name="dateDow" position="263,593" size="593,26" font="gioppyregular;18" halign="left" foregroundColor="#49bbff" backgroundColor="#00000000" transparent="1" zPosition="3" />
+  <widget name="namesat" position="263,623" size="446,26" font="gioppyregular;18" halign="left" foregroundColor="#00ffc000" backgroundColor="#00000000" transparent="1" zPosition="3" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_redhd.png" position="12,686" size="23,23" alphatest="blend" transparent="1" />
+  <widget name="Key_Red" position="40,683" size="266,26" font="gioppyregular;20" halign="left" borderColor="#000000" borderWidth="1" foregroundColor="#00ffffff" backgroundColor="#00000000" zPosition="1" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_greenhd.png" position="263,686" size="23,23" alphatest="blend" transparent="1" />
+  <widget name="key_green" position="292,683" size="266,26" zPosition="1" halign="left" borderColor="#000000" borderWidth="1" font="gioppyregular;20" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_yellowhd.png" position="616,686" size="23,23" zPosition="2" transparent="1" alphatest="blend"/>
+  <widget name="Key_Personal" position="645,683" size="266,26" font="gioppyregular;20" halign="left" borderColor="#000000" borderWidth="1" foregroundColor="#00ffffff" backgroundColor="#00000000" zPosition="1" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_bluehd.png" position="933,686" size="23,23" zPosition="2" transparent="1" alphatest="blend"/>
+  <widget name="autotimer" position="962,683" size="400,26" font="gioppyregular;20" halign="left" borderColor="#000000" borderWidth="1" foregroundColor="#00ffffff" backgroundColor="#00000000" zPosition="1" transparent="1" />
+  <widget source="global.CurrentTime" render="Label" position="866,13" size="400,33" font="gioppyregular;23" halign="right" foregroundColor="#00aaaaaa" backgroundColor="#00000000" transparent="1" zPosition="1">
+    <convert type="ClockToText">Format:%A %d.%m.%Y | %H:%M</convert>
+  </widget>
+  <widget source="session.VideoPicture" render="Pig" position="816,70" size="447,251" zPosition="3" backgroundColor="#ff000000" />
+  <widget position="816,322" size="446,26" source="session.CurrentService" render="Label" font="gioppyregular;24" foregroundColor="#FFFFFF" backgroundColor="#00000000" transparent="1" valign="center" halign="center" noWrap="1" zPosition="5">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+  <widget name="version" position="816,369" size="446,33" font="gioppyregular;22" halign="center" valign="center" foregroundColor="#00ffc000" backgroundColor="#00000000" borderColor="#000000" borderWidth="1" transparent="1" zPosition="1" />
+  <eLabel text="www.gioppygio.it" position="816,416" size="446,33" font="gioppyregular;23" halign="center" valign="center" foregroundColor="#FFFFFF" backgroundColor="#00000000" borderWidth="1" transparent="1" zPosition="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/BG_defaulthd.jpg" position="0,0" zPosition="-20" size="1280,720" />
+</screen>

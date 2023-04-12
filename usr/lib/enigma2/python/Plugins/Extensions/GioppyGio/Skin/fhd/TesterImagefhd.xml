@@ -1,0 +1,8 @@
+<screen name="TesterImage" position="0,0" size="1920,1080" title=" " flags="wfNoBorder" backgroundColor="#00000000">
+  <widget source="Title" render="Label" position="180,15" size="1300,50" font="gioppyregular;44" halign="left" valign="center" foregroundColor="#FFFFFF" backgroundColor="#00000000" borderColor="#000000" borderWidth="1" transparent="1" zPosition="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/special.jpg" position="0,0" zPosition="-20" size="1920,1080" />
+  <ePixmap position="19,1025" size="35,35" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_red.png" zPosition="2" alphatest="blend" />
+  <widget name="special" position="0,300" size="1920,150" font="gioppybold; 40" halign="center" valign="center" foregroundColor="#fdd416" backgroundColor="#00000000" borderColor="#000000" borderWidth="3" transparent="1" zPosition="1" />
+  <widget name="tested" position="0,515" size="1920,50" font="gioppybold; 40" halign="center" valign="center" foregroundColor="#f9f8fb" backgroundColor="#00000000" borderColor="#000000" borderWidth="3" transparent="1" zPosition="1" />
+  <widget source="key_red" render="Label" position="62,1005" size="240,70" zPosition="1" valign="center" font="gioppyregular;30" halign="left" backgroundColor="#00000000" transparent="1" />
+</screen>

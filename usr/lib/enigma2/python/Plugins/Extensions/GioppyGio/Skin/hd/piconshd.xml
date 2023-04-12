@@ -1,0 +1,46 @@
+<screen name="picons" position="0,0" size="1280,720" title="GioppyGio - Picons" backgroundColor="#00000000" flags="wfNoBorder">
+  <widget source="Title" render="Label" position="120,10" size="866,33" font="gioppyregular;29" halign="left" valign="center" foregroundColor="#FFFFFF" backgroundColor="#00000000" borderColor="#000000" borderWidth="1" transparent="1" zPosition="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/GG_Logo2hd.png" position="7,10" size="100,32" zPosition="1" alphatest="blend" />
+  <widget name="config" position="253,76" size="550,505" itemHeight="30" font="gioppyregular;24" foregroundColor="#ffffff" backgroundColor="#00000000" foregroundColorSelected="#ffffff" zPosition="1" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_redhd.png" position="12,686" size="23,23" zPosition="2" alphatest="blend" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_greenhd.png" position="263,686" size="23,23" zPosition="2" alphatest="blend" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_yellowhd.png" position="516,686" size="23,23" zPosition="2" alphatest="blend" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_bluehd.png" position="783,686" size="23,23" zPosition="2" alphatest="blend" transparent="1" />
+  <widget name="key_red" position="40,683" size="266,26" font="gioppyregular;20" halign="left" borderColor="#000000" borderWidth="1" foregroundColor="#00ffffff" backgroundColor="#00000000" zPosition="1" transparent="1" />
+  <widget name="key_green" position="292,683" size="266,26" zPosition="1" halign="left" borderColor="#000000" borderWidth="1" font="gioppyregular;20" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" />
+  <widget name="key_yellow" position="545,683" size="266,26" font="gioppyregular;20" halign="left" borderColor="#000000" borderWidth="1" foregroundColor="#00ffffff" backgroundColor="#00000000" zPosition="1" transparent="1" />
+  <widget name="key_blue" position="812,683" size="400,26" font="gioppyregular;20" halign="left" borderColor="#000000" borderWidth="1" foregroundColor="#00ffffff" backgroundColor="#00000000" zPosition="1" transparent="1" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/key_helphd.png" position="1012,683" size="68,23" alphatest="blend" zPosition="2" />
+  <widget name="key_help" position="1088,683" size="253,26" zPosition="1" font="gioppyregular;20" halign="left" borderColor="#000000" borderWidth="1" foregroundColor="#00ffffff" transparent="1" />
+  <ePixmap position="50,86" size="152,152" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/gioppy1hd.png" zPosition="2" alphatest="blend" />
+  <widget name="version" position="816,369" size="446,33" font="gioppyregular;22" halign="center" valign="center" foregroundColor="#00ffc000" backgroundColor="#00000000" borderColor="#000000" borderWidth="1" transparent="1" zPosition="1" />
+  <eLabel text="www.gioppygio.it" position="816,416" size="446,33" font="gioppyregular;23" halign="center" valign="center" foregroundColor="#FFFFFF" backgroundColor="#00000000" borderWidth="1" transparent="1" zPosition="1" />
+  <widget source="global.CurrentTime" render="Label" position="866,13" size="400,33" font="gioppyregular;23" halign="right" foregroundColor="#00aaaaaa" backgroundColor="#00000000" transparent="1" zPosition="1">
+    <convert type="ClockToText">Format:%A %d.%m.%Y | %H:%M</convert>
+  </widget>
+  <widget source="session.VideoPicture" render="Pig" position="816,70" size="447,251" zPosition="3" backgroundColor="#ff000000" />
+  <widget position="816,322" size="446,26" source="session.CurrentService" render="Label" font="gioppyregular;24" foregroundColor="#FFFFFF" backgroundColor="#00000000" transparent="1" valign="center" halign="center" noWrap="1" zPosition="5">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+  <widget name="updatepicons" position="253,530" size="550,27" font="gioppyregular;19" foregroundColor="#00ffc000" halign="center" valign="center" zPosition="1" transparent="1" />
+  <widget name="modpicons" position="386,353" alphatest="blend" size="278,166" transparent="1" zPosition="2" />
+  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/BG_default2hd.jpg" position="0,0" zPosition="-19" size="1280,720" />
+  <widget source="progress" zPosition="2" render="Progress" position="840,460" size="400,40" transparent="1" foregroundColor="#1b3c85" />
+  <widget source="progresstext" render="Label" position="840,466" size="400,40" zPosition="3" font="gioppyregular;20" halign="center" transparent="1" foregroundColor="#FFFFFF" backgroundColor="#ff111111" />
+  <widget source="progress2" zPosition="2" render="Progress" position="840,513" size="400,40" transparent="1" foregroundColor="#1b3c85" />
+  <widget source="progresstext2" render="Label" position="840,520" size="400,40" zPosition="3" font="gioppyregular;20" halign="center" transparent="1" foregroundColor="#FFFFFF" backgroundColor="#ff111111" />
+  <!--flash-->
+  <ePixmap position="262,588" zPosition="2" size="44,59" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/hddhd.png" alphatest="blend" />
+  <widget source="session.CurrentService" render="Label" position="314,584" size="593,26" halign="left" valign="center" font="gioppyregular;18" transparent="1" foregroundColor="#00ffc000" backgroundColor="#00000000" zPosition="6">
+    <convert type="GGLayoutInfo">Flesh</convert>
+  </widget>
+  <!--hdd-->
+  <widget source="session.CurrentService" render="Label" position="314,604" size="593,26" halign="left" valign="center" font="gioppyregular;18" transparent="1" foregroundColor="#00ffc000" backgroundColor="#00000000" zPosition="6">
+    <convert type="GGLayoutInfo">HddInfo</convert>
+  </widget>
+  <!--usb-->
+  <widget source="session.CurrentService" render="Label" position="314,624" size="593,26" halign="left" valign="center" font="gioppyregular;18" transparent="1" foregroundColor="#00ffc000" backgroundColor="#00000000" zPosition="6">
+    <convert type="GGLayoutInfo">UsbInfo</convert>
+  </widget>
+  <widget name="restarte2" position="816,597" size="446,33" font="gioppyregular;24" halign="center" valign="center" foregroundColor="#49bbff" backgroundColor="#00000000" borderColor="#000000" borderWidth="1" transparent="1" zPosition="1" />
+</screen>
